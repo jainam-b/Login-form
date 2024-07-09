@@ -1,0 +1,125 @@
+ 
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+ 
+body {
+  font-family: Arial, sans-serif;
+  background-color: #eef2f5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+.login-container {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 400px;
+  text-align: left;
+}
+
+h1 {
+  font-family: "Inter", sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 36.31px;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.heading-text {
+    
+  font-family:"IBM Plex Serif" ,Serif;
+  font-size: 16px;
+  font-weight: light 300;
+  line-height: 23.4px;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+  align-items: flex-start;
+  padding-right: 25px;
+}
+
+input {
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  width: 100%;
+}
+
+p{
+    font-family: "Inter", sans-serif;
+    font-weight:400
+}
+button[type="submit"] {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  background-color: rgba(3, 102, 255, 1);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+  margin-top: 25px;
+  width: 100%;
+  max-width: 250px;
+  margin-left: auto;
+  margin-right: auto;
+  border-color: rgba(3, 102, 255, 1);
+}
+
+input:focus {
+    border-color: rgba(3, 102, 255, 1);
+    outline: none;
+  } 
+
+.login-text {
+  font-weight: 400;
+  font-size: 16px;
+  font-family:"IBM Plex Serif" ,Serif;
+  font-weight: 400;
+}
+
+button[type="submit"]:hover {
+  background-color: rgba(3, 102, 255, 1);
+}
+
+button[type="submit"]:hover {
+  background-color: #3700b3;
+}
+
+.social-login {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.social-login button {
+  padding: 0.5rem;
+  flex: 1;
+  margin: 0 0.25rem;
+  border: 0px solid #ccc;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.social-login .google,
+.social-login .meta,
+.social-login .apple {
+  background-color: rgba(247, 247, 247, 1);
+}
+
+.social-login button:hover {
+  background-color: #eee;
+}
