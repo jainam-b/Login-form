@@ -92,8 +92,7 @@ button[type="submit"]:hover {
 }
 
 button[type="submit"]:hover {
-  background-color: #3700b3;
-}
+    background-color: rgba(3, 102, 255, 1);}
 
 .social-login {
   display: flex;
