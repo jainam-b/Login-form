@@ -76,13 +76,11 @@ button[type="submit"] {
   margin-right: auto;
   border-color: rgba(3, 102, 255, 1);
 }
-
 input:focus {
     border-color: rgba(3, 102, 255, 1);
-    outline: none;
-  } 
+  }
 
-.login-text {
+.login-text {   
   font-weight: 400;
   font-size: 16px;
   font-family:"IBM Plex Serif" ,Serif;
@@ -93,7 +91,9 @@ button[type="submit"]:hover {
   background-color: rgba(3, 102, 255, 1);
 }
 
- 
+button[type="submit"]:hover {
+  background-color: #3700b3;
+}
 
 .social-login {
   display: flex;
